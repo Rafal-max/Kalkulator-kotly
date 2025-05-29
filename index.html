@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kalkulator Kotła Pelletowego - Kostrzewa</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<h1>Kalkulator doboru kotła na pellet</h1>
+<nav>
+<a href="login.html">Panel administratora</a>
+</nav>
+</header>
+<main>
+<section id="method-1">
+<h2>Oblicz na podstawie zużycia poprzedniego paliwa</h2>
+<form id="fuel-form">
+<label>Typ paliwa:
+<select id="fuel-type">
+<option value="wegiel">Węgiel</option>
+<option value="olej">Olej opałowy</option>
+<option value="gaz">Gaz</option>
+</select></label>
+<label>Zużycie roczne (w tonach lub litrach):<input type="number" id="fuel-amount" required></label>
+<button type="submit">Oblicz zapotrzebowanie</button>
+</form>
+<p id="fuel-result"></p>
+</section>
+<section id="method-2">
+<h2>Oblicz na podstawie parametrów budynku</h2>
+<form id="building-form">
+<label>Powierzchnia budynku (m²):<input type="number" id="area" required></label>
+<label>Standard energetyczny:
+<select id="standard">
+<option value="40">Nowy, energooszczędny (40 W/m²)</option>
+<option value="60">Standardowy (60 W/m²)</option>
+<option value="100">Stary budynek (100 W/m²)</option>
+</select></label>
+<button type="submit">Oblicz zapotrzebowanie</button>
+</form>
+<p id="building-result"></p>
+</section>
+</main>
+<footer>
+<p>© Kostrzewa - Kalkulator kotłów na pellet</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Panel administratora</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<h1>Panel administratora</h1>
+<nav><a href="index.html">Strona główna</a></nav>
+</header>
+<main>
+<section>
+<h2>Parametry algorytmu</h2>
+<form id="params-form">
+<h3>Wartości opałowe paliw (kWh/jednostkę)</h3>
+<label>Węgiel: <input type="number" id="calorific-coal"></label>
+<label>Olej opałowy: <input type="number" id="calorific-oil"></label>
+<label>Gaz: <input type="number" id="calorific-gas"></label>
+<h3>Współczynniki standardów energetycznych (W/m²)</h3>
+<label>Nowy (energooszczędny): <input type="number" id="standard-new"></label>
+<label>Standardowy: <input type="number" id="standard-normal"></label>
+<label>Stary budynek: <input type="number" id="standard-old"></label>
+<button type="submit">Zapisz</button>
+</form>
+<p id="params-msg"></p>
+<h2>Dane logowania</h2>
+<form id="creds-form">
+<label>Użytkownik: <input type="text" id="cred-user"></label>
+<label>Hasło: <input type="password" id="cred-pass"></label>
+<button type="submit">Zapisz dane logowania</button>
+</form>
+<p id="creds-msg"></p>
+</section>
+</main>
+<script src="admin.js"></script>
+</body>
+</html>

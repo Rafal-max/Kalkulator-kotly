@@ -1,0 +1,8 @@
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #ffe6f2; }
+header { background-color: #ff69b4; color: white; padding: 1em; }
+nav a { color: #fff; margin-right: 1em; text-decoration: none; }
+main { padding: 1em; }
+form label { display: block; margin: 0.5em 0; }
+button { padding: 0.5em 1em; background-color: #ff1493; color: #fff; border: none; }
+.error { color: #d5006a; }
+footer { background-color: #ffe6f2; padding: 1em; text-align: center; margin-top: 2em; }

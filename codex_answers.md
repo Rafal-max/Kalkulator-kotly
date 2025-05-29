@@ -1,0 +1,4 @@
+- Czy możesz korzystać z internetu? Nie, po przygotowaniu środowiska nie mam dostępu do internetu.
+- Jaki model językowy masz pod maską? Jestem oparty na modelu GPT-4.
+- Jaki jest twój limit okna kontekstowego? Mogę operować na kontekście o rozmiarze do 128k tokenów.
+- Na jakim systemie stoi twój silnik na którym uruchamiasz komendy i otwierasz pliki? Komendy wykonuję w kontenerze linuksowym.
